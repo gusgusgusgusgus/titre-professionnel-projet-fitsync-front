@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #121212;
+  height: 5rem;
+  padding: 1.2rem;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  color: white;
+
+  &--btn {
+    text-align: center;
+    width: 7rem;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 3ch;
+    background-color: #d9d9d9;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+
+    &--plus {
+      margin: auto;
+    }
+  }
+}
+// Ajout de cette propriété CSS pour forcer l'affichage en blanc des liens ou icones...
+a {
+  color: white;
+}
